@@ -1,3 +1,5 @@
+create database bd_prediccion
+
 create table usuario(
 id_us serial,
 nombre varchar(30),
