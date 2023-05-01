@@ -6,3 +6,9 @@ Proyecto de prueba
 ### venv\Scripts\activate
 ### pip install Flask
 ## pip install psycopg2 
+
+# para subir a git
+* git init
+* git add .
+* git commit -m "inserta Mensaje aquí"
+* git push
