@@ -16,11 +16,11 @@ import psycopg2
         
 
 
-def inicio_ses(nombre,clave):
-    conexion = obtener_conexion()
-    usuario=[]
-    with conexion.cursor() as cursor:
-        cursor.execute("SELECT nombre, clave FROM usuario WHERE nombre = %s  and clave = %s", (nombre,clave))
-    usuario = cursor.fetchone()
-    
-    return usuario           
+# def inicio_ses(nombre,clave):
+#     conexion = obtener_conexion()
+#     usuario=[]
+#     with conexion.cursor() as cursor:
+#         cursor.execute("SELECT nombre, clave FROM usuario WHERE nombre = %s  and clave = %s", (nombre,clave))
+#     usuario = cursor.fetchone()
+#     conexion.close()
+#     return usuario           
