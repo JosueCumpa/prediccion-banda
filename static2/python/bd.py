@@ -7,7 +7,7 @@ from psycopg2 import DatabaseError
 #                             user='postgres',
 #                             password='12'
 #                             )
-
+#Pruba de conexion directa
 # try:
 #     connection=psycopg2.connect(
 #         host='localhost',
@@ -24,13 +24,24 @@ from psycopg2 import DatabaseError
 # except Exception as ex:
 #     print(ex)
 
-
-def obtener_conexion():
+#Conexion pc original
+""" def obtener_conexion():
     try:
         return psycopg2.connect(
             host='localhost',
             user='postgres',
             password='12',
+            database='bd_prediccion'
+        )
+    except DatabaseError as ex:
+        raise ex """
+# Conexion servidor
+def obtener_conexion():
+    try:
+        return psycopg2.connect(
+            host='localhost',
+            user='postgres',
+            password='2314',
             database='bd_prediccion'
         )
     except DatabaseError as ex:

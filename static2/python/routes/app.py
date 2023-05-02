@@ -1,6 +1,7 @@
 from flask import render_template, request, redirect, flash ,url_for
-import psycopg2
-import static2.python.controladores.login as c_login
+#import psycopg2
+#import static2.python.controladores.login as c_login
+#from static2.python.bd import obtener_conexion
 from static2.python.bd import obtener_conexion
 from __main__ import app
 
