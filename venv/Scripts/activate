@@ -38,7 +38,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="C:\Users\User\Desktop\pryPrediccion\prediccion-banda\venv"
+VIRTUAL_ENV="C:\Users\JosueV2\Desktop\pryPrediccion\prediccion-banda\venv"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"
